@@ -1,0 +1,19 @@
+{
+  "name": "codex-cli-practice-project",
+  "version": "1.0.0",
+  "description": "Codex CLI 사용법을 연습하기 위한 프로젝트",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "express": "^4.19.2",
+    "vite": "^5.4.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
