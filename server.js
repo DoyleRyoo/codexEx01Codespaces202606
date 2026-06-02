@@ -4,6 +4,8 @@ const express = require('express');
 // Express 서버 애플리케이션을 생성합니다.
 const app = express();
 
+app.use(express.static('frontend/public'));
+
 // Render는 실행 포트를 PORT 환경 변수로 전달합니다.
 const PORT = process.env.PORT || 3000;
 
